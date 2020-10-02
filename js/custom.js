@@ -13,7 +13,7 @@ $(window).on("load",function() {
         if (objectBottom < windowBottom) { //object comes into view (scrolling down)
           $(this).fadeTo(500,max);
         } else { //object goes out of view (scrolling up)
-          if ($(this).css("opacity")>=max-threshold || pageLoad) {$(this).fadeTo(500,min);}
+          if (pageLoad) {$(this).fadeTo(500,min);}
         }
       });
     } fade(true); //fade elements on page-load
