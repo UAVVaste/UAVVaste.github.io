@@ -10515,3 +10515,5 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.tab { display:inline-block; margin-left: 40px;}
